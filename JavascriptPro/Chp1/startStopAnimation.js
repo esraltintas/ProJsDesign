@@ -13,8 +13,10 @@ var Anim = function() {
 
 };
 Anim.prototype.start = function() {
+    alert("Eses");
     };
 Anim.prototype.stop = function() {
+    alert("bye")
 
 };
 /* Usage. */
@@ -29,13 +31,13 @@ var Anim = function() {
 };
 Anim.prototype = {
     start: function() {
-
+        alert("Hi")
 
     },
 
     stop: function() {
-
-} };
+        alert("Eses")
+    } };
 
 /* Add a method to the Function object that can be used to declare methods. */
 Function.prototype.method = function(name, fn) {

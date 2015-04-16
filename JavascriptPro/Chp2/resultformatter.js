@@ -33,7 +33,7 @@ var ResultSet = new Interface('ResultSet', ['getDate', 'getResults']);
 
 // ResultFormatter class, after adding Interface checking.
 var ResultFormatter = function(resultsObject) {
-    Interface.ensureImplements(resultsObject, ResultSet);
+    Interface.ensureImplements(resultsObject, ResultSet); //?
     this.resultsObject = resultsObject;
 };
 
